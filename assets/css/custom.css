@@ -1,0 +1,85 @@
+.box-about {
+    padding-top: 3.3rem;
+    -webkit-box-shadow: 0 14px 30px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.09);
+    border-radius: 1rem;
+    display: block;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2.8rem;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    background: #fff;
+    margin-bottom: 1.5rem;
+  }
+  .icon-box {
+    text-align: center;
+    position: relative;
+  }
+  .box-about * {
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  .svg-box {
+    width: 82px;
+    display: inline-block;
+  }
+  svg {
+    overflow: hidden;
+    vertical-align: middle;
+  }
+  .svg-box svg path {
+    fill: rgba(227, 32, 74, 0.08);
+    animation: dashin 0.4s forwards;
+    -webkit-animation: dashin 0.4s forwards;
+    -moz-animation: dashin 0.4s forwards;
+    -ms-animation: dashin 0.4s forwards;
+  }
+  .svg-box.flipped {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    top: 0;
+  }
+  .icon-box img.main-icon {
+    top: 50%;
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .box-about img {
+    display: inline-block;
+  }
+  .box-about .title-wrapper {
+    margin-top: 2.5rem;
+  }
+  .small-title-1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #2e2f43;
+    text-align: center;
+  }
+  .box-about .content-wrapper {
+    margin-top: 1rem;
+  }
+  .box-about:hover {
+    -webkit-box-shadow: 0 14px 30px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 14px 30px 0 rgba(0, 0, 0, 0.1);
+    background: #e3204a;
+  }
+  .box-about:hover .small-title-1 {
+    color: #fff;
+  }
+  .box-about:hover .body-font-5 {
+    color: #fff;
+  }
