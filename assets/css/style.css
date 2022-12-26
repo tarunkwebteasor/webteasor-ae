@@ -14153,9 +14153,6 @@ footer.style-15 .foot p {
   z-index: 2;
 }
 
-.about-page .contact .content {
-  border-top: 10px solid var(--color-blue5);
-}
 
 .about-page .contact.style-6 .form-group .form-control:focus,
 .about-page .contact.style-6 .form-group .form-select:focus {
