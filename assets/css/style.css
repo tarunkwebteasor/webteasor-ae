@@ -1,73 +1,4 @@
-/*
-Theme Name: Iteck     
-Theme URI: https://themeforest.net/
-Author: ThemesCamp 
-Author URI:  http://themeforest.net/user/themescamp/ 
-Description: Iteck is a Modern Software and Technology HTML Theme for agencies to show their creative works.
-Version: 1.0.0     
-*/
-/* -----------------------------------------------------------
-TABLE OF CONTENTS:-                                                                                                      
---------------------------------------------------------------
-* variable
-	- text colors
-	- background colors
-	- border colors
-* global
-	- Typography
-	- To top style
-	- inner page style  
-	- font family
-* helper         
-	- font-weight       
-	- font-size 
-	- line-height
-	- text-transform  
-	- letter-spacing 
-	- Overlay Effect Bg image     
-	- margin-top
-	- margin-bottom 
-	- padding-top
-	- padding-bottom
-	- the spacing
-	- social-media-colors
-* buttons
-* section title
-* top navbar sections
-* navbar sections
-* header Sections
-* about Sections
-* services Sections
-* choose-us Sections
-* portfolio Sections
-* testimonials Sections
-* pricing Sections
-* team Sections
-* blog Sections
-* faq Sections
-* community Sections
-* screenshots Sections
-* features Sections
-* numbers Sections
-* clients Sections
-* chat-banner Sections
-* contact Sections
-* download Sections
-* footer Sections
-* portfolio_page style
-* single_project style
-* services_page style
-* about_page style
-* contact_page style
-* blog_page style
-* shop_page style
-* product_page style
-* Responsive
 
-------------------------------------------------------------*/
-/* ===============================================================
-			[ * variable Section ] 
-================================================================*/
 /* --------------- variable --------------- */
 :root {
   --color-main: #e3204a;
@@ -1831,9 +1762,9 @@ small.text {
 }
 .butn.blue5-3Dbutn,
 .btn.blue5-3Dbutn {
-  background: var(--color-blue5);
-  -webkit-box-shadow: 0px 4px 0px 0px var(--color-blue4);
-  box-shadow: 0px 4px 0px 0px var(--color-blue4);
+  background: var(--color-main);
+  -webkit-box-shadow: 0px 4px 0px 0px var(--color-main);
+  box-shadow: 0px 4px 0px 0px var(--color-main);
   -webkit-filter: drop-shadow(0 13px 20px #07397235);
   filter: drop-shadow(0 13px 20px #07397235);
   font-size: 12px;
@@ -2107,7 +2038,7 @@ small.text {
   font-size: 45px;
 }
 .section-head.style-5 h2 span {
-  color: var(--color-blue5);
+  color: var(--color-main);
   position: relative;
   display: inline-block;
   padding: 0 5px;
@@ -2120,7 +2051,7 @@ small.text {
   bottom: 0;
   width: 100%;
   height: 40%;
-  background-color: var(--color-blue5);
+  background-color: var(--color-main);
   opacity: 8%;
 }
 
@@ -3680,46 +3611,12 @@ header.style-4 .content .info h1 {
   color: #000;
 }
 header.style-4 .content .info h1 span {
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    from(#501e9c),
-    color-stop(30%, #8169f1),
-    color-stop(30%, #8169f1),
-    color-stop(73%, #a44cee),
-    to(#ff847f)
-  );
-  background-image: -webkit-linear-gradient(
-    left,
-    #501e9c 0%,
-    #8169f1 30%,
-    #8169f1 30%,
-    #a44cee 73%,
-    #ff847f 100%
-  );
-  background-image: -o-linear-gradient(
-    left,
-    #501e9c 0%,
-    #8169f1 30%,
-    #8169f1 30%,
-    #a44cee 73%,
-    #ff847f 100%
-  );
-  background-image: linear-gradient(
-    to right,
-    #501e9c 0%,
-    #8169f1 30%,
-    #8169f1 30%,
-    #a44cee 73%,
-    #ff847f 100%
-  );
-}
-header.style-4 .content .info .text {
-  color: #666;
-  font-size: 15px;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: -webkit-gradient( linear, left top, right top, from(#501E9C), color-stop(30%, #8169F1), color-stop(30%, #8169F1), color-stop(73%, #A44CEE), to(#FF847F) ); 
+	background-image: -webkit-linear-gradient( left, #501E9C 0%, #8169F1 30%, #8169F1 30%, #A44CEE 73%, #FF847F 100% );
+	 background-image: -o-linear-gradient( left, #501E9C 0%, #8169F1 30%, #8169F1 30%, #A44CEE 73%, #FF847F 100% ); 
+	background-image: linear-gradient( to right, #A61E08 10%, #E3204A 45%, #E3204A, #A61E08 );
 }
 header.style-4 .content .info .play-btn {
   display: -webkit-box;
@@ -6927,7 +6824,7 @@ header.style-15 .countdown-content .logos img {
 }
 .projects.style-7 .projects-tabs .swiper-button-next:hover,
 .projects.style-7 .projects-tabs .swiper-button-prev:hover {
-  background: var(--color-blue7) !important;
+  background: var(--color-main) !important;
   color: #fff;
 }
 .projects.style-7 .projects-tabs .swiper-button-next::after,
@@ -6998,7 +6895,7 @@ header.style-15 .countdown-content .logos img {
 }
 .projects.style-8 .section-head .swiper-button-next:hover,
 .projects.style-8 .section-head .swiper-button-prev:hover {
-  background: var(--color-orange1);
+  background: var(--color-main);
   color: #fff;
 }
 .projects.style-8 .section-head .swiper-button-next::after,
@@ -13854,10 +13751,20 @@ footer.style-15 .foot p {
 ================================================================*/
 /* --------------- inner-header style-5 --------------- */
 .inner-header.style-5 {
-  background-image: url(../img/inner5_back.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #000;
+  background: #363636;
+  position: relative;
+}
+.inner-header.style-5::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	background: url(../../assets/img/inner-banner.svg) no-repeat;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+.banner-content.color-white {
+	color: #fff;
 }
 .inner-header.style-5 .content {
   padding: 120px 0;
@@ -16649,7 +16556,7 @@ footer.style-15 .foot p {
   background-color: #9999;
 }
 .about-page.style-2 .about.style-2 .info .nav .nav-item .nav-link.active {
-  color: var(--color-blue5);
+  color: var(--color-main);
 }
 .about-page.style-2 .about.style-2 .pattern_l {
   position: absolute;
@@ -16677,7 +16584,7 @@ footer.style-15 .foot p {
   position: relative;
 }
 .about-page.style-2 .timeline .card-year h3 {
-  color: var(--color-blue5);
+  color: var(--color-main);
   font-size: 44px;
 }
 .about-page.style-2 .timeline .timeline-content {
@@ -16825,7 +16732,37 @@ footer.style-15 .foot p {
   color: #666;
   font-size: 16px;
 }
-
+.service-page {
+	background: url(../../assets/img/web-services.webp);
+	height: 700px;
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	position: relative;
+	padding: 5rem 0;
+}
+.service-page::before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: linear-gradient(226.92deg,rgba(227,32,74,.84) 15.33%,rgba(0,0,0,.88) 55.21%);
+	transform: matrix(-1,0,0,1,0,0);
+	opacity: .7;
+}
+.contents {
+	background: #fff;
+	color: #000;
+	padding: 50px;
+}
+.servicesContent {
+	background: #e3204a;
+	position: relative;
+	padding: 50px 0;
+	color: #fff;
+}
 .services-details-page.style-5 .ser-details .main-info .main-img {
   height: 450px;
   overflow: hidden;
@@ -19007,4 +18944,24 @@ footer.style-15 .foot p {
 	font-size: 18px;
 	border-radius: 5px;
 	border: 1px solid #fff;
+}
+.outlined-text {
+	font-size: calc(4rem + 5vw);
+}
+.outlined-text {
+	text-transform: uppercase;
+	font-size: calc(2rem + 4vw);
+	line-height: 1;
+	font-weight: 900;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: rgb(0 0 0 / 0%);
+	-webkit-text-stroke: 1px #fff;
+	opacity: 0.39;
+	margin-bottom: -50px;
+	display: block;
+}
+.btn.sm-butn.butn-gard.border-0.custom_btn {
+	color: #fff !important;
+	margin-top: 19px;
 }
