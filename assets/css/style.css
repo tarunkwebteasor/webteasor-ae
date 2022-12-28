@@ -8,7 +8,7 @@
   --color-blue4: #5842bc;
   --color-blue5: #157efb;
   --color-blue6: #6640f4;
-  --color-blue7: #E3204A;
+  --color-blue7: #8169f1;
   --color-lightBlue: #15f1ff;
   --color-darkBlue: #cc2131;
   --color-darkBlue2: #a61e08;
@@ -370,10 +370,10 @@ body.style-6 {
     color: var(--color-blue7); }
   .home-style-7 #preloader:after,
   .home-style-7 #preloader:before {
-    background: -webkit-gradient(linear, right top, left top, from(#501e9c), color-stop(30%, #E3204A), color-stop(30%, #E3204A), color-stop(73%, #E3204A), to(#ff847f));
-    background: -webkit-linear-gradient(right, #501e9c 0%, #E3204A 30%, #E3204A 30%, #E3204A 73%, #ff847f 100%);
-    background: -o-linear-gradient(right, #501e9c 0%, #E3204A 30%, #E3204A 30%, #E3204A 73%, #ff847f 100%);
-    background: linear-gradient(to left, #501e9c 0%, #E3204A 30%, #E3204A 30%, #E3204A 73%, #ff847f 100%); }
+    background: -webkit-gradient(linear, right top, left top, from(#501e9c), color-stop(30%, #8169f1), color-stop(30%, #8169f1), color-stop(73%, #a44cee), to(#ff847f));
+    background: -webkit-linear-gradient(right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+    background: -o-linear-gradient(right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
+    background: linear-gradient(to left, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%); }
 */
 .home-style-8 {
   color: #000;
@@ -1992,34 +1992,34 @@ small.text {
     linear,
     left top,
     right top,
-    from(#A61E08),
-    color-stop(30%, #E3204A),
-    color-stop(30%, #E3204A),
-    color-stop(73%, #E3204A),
+    from(#501e9c),
+    color-stop(30%, #8169f1),
+    color-stop(30%, #8169f1),
+    color-stop(73%, #a44cee),
     to(#ff847f)
   );
   background-image: -webkit-linear-gradient(
     left,
-    #A61E08 0%,
-    #E3204A 30%,
-    #E3204A 30%,
-    #E3204A 73%,
+    #501e9c 0%,
+    #8169f1 30%,
+    #8169f1 30%,
+    #a44cee 73%,
     #ff847f 100%
   );
   background-image: -o-linear-gradient(
     left,
-    #A61E08 0%,
-    #E3204A 30%,
-    #E3204A 30%,
-    #E3204A 73%,
+    #501e9c 0%,
+    #8169f1 30%,
+    #8169f1 30%,
+    #a44cee 73%,
     #ff847f 100%
   );
   background-image: linear-gradient(
     to right,
-    #A61E08 0%,
-    #E3204A 30%,
-    #E3204A 30%,
-    #E3204A 73%,
+    #501e9c 0%,
+    #8169f1 30%,
+    #8169f1 30%,
+    #a44cee 73%,
     #ff847f 100%
   );
 }
@@ -2027,7 +2027,7 @@ small.text {
 .section-head.style-4 h5 {
   font-size: 16px;
   font-weight: bold;
-  color: #E3204A;
+  color: #a44cee;
   display: inline-block;
   text-transform: capitalize;
   margin: 0 10px;
@@ -2392,7 +2392,7 @@ small.text {
 .side_menu.style-7 .pages_links::-webkit-scrollbar {
   height: 5px;
   width: 3px;
-  background: #E3204A22;
+  background: #8169f122;
   border-radius: 10px;
 }
 .side_menu.style-7 .pages_links::-webkit-scrollbar-thumb {
@@ -2401,7 +2401,7 @@ small.text {
   border-radius: 10px;
 }
 .side_menu.style-7 .pages_links::-webkit-scrollbar-corner {
-  background: #E3204A22;
+  background: #8169f122;
   border-radius: 10px;
 }
 .side_menu.style-7 .pages_links li {
@@ -3613,9 +3613,9 @@ header.style-4 .content .info h1 {
 header.style-4 .content .info h1 span {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	background-image: -webkit-gradient( linear, left top, right top, from(#501E9C), color-stop(30%, #E3204A), color-stop(30%, #E3204A), color-stop(73%, #E3204A), to(#FF847F) ); 
-	background-image: -webkit-linear-gradient( left, #501E9C 0%, #E3204A 30%, #E3204A 30%, #E3204A 73%, #FF847F 100% );
-	 background-image: -o-linear-gradient( left, #501E9C 0%, #E3204A 30%, #E3204A 30%, #E3204A 73%, #FF847F 100% ); 
+	background-image: -webkit-gradient( linear, left top, right top, from(#501E9C), color-stop(30%, #8169F1), color-stop(30%, #8169F1), color-stop(73%, #A44CEE), to(#FF847F) ); 
+	background-image: -webkit-linear-gradient( left, #501E9C 0%, #8169F1 30%, #8169F1 30%, #A44CEE 73%, #FF847F 100% );
+	 background-image: -o-linear-gradient( left, #501E9C 0%, #8169F1 30%, #8169F1 30%, #A44CEE 73%, #FF847F 100% ); 
 	background-image: linear-gradient( to right, #A61E08 10%, #E3204A 45%, #E3204A, #A61E08 );
 }
 header.style-4 .content .info .play-btn {
@@ -3981,33 +3981,33 @@ header.style-7 .info h1 .text-grad {
     left top,
     right top,
     from(#501e9c),
-    color-stop(30%, #E3204A),
-    color-stop(30%, #E3204A),
-    color-stop(73%, #E3204A),
+    color-stop(30%, #8169f1),
+    color-stop(30%, #8169f1),
+    color-stop(73%, #a44cee),
     to(#ff847f)
   );
   background-image: -webkit-linear-gradient(
     left,
     #501e9c 0%,
-    #E3204A 30%,
-    #E3204A 30%,
-    #E3204A 73%,
+    #8169f1 30%,
+    #8169f1 30%,
+    #a44cee 73%,
     #ff847f 100%
   );
   background-image: -o-linear-gradient(
     left,
     #501e9c 0%,
-    #E3204A 30%,
-    #E3204A 30%,
-    #E3204A 73%,
+    #8169f1 30%,
+    #8169f1 30%,
+    #a44cee 73%,
     #ff847f 100%
   );
   background-image: linear-gradient(
     to right,
     #501e9c 0%,
-    #E3204A 30%,
-    #E3204A 30%,
-    #E3204A 73%,
+    #8169f1 30%,
+    #8169f1 30%,
+    #a44cee 73%,
     #ff847f 100%
   );
 }
@@ -5428,7 +5428,7 @@ header.style-15 .countdown-content .logos img {
 .about.style-10 .info h6 {
   font-size: 14px;
   font-weight: 400;
-  color: #E3204A;
+  color: #8169f1;
   margin-bottom: 10px;
 }
 .about.style-10 .info h2 {
@@ -6071,7 +6071,7 @@ header.style-15 .countdown-content .logos img {
 }
 .services.style-10 .services-card h6 {
   font-size: 14px;
-  color: #E3204A;
+  color: #8169f1;
   margin-bottom: 15px;
 }
 .services.style-10 .services-card h3 {
@@ -6856,7 +6856,7 @@ header.style-15 .countdown-content .logos img {
   padding: 55px;
 }
 .project-card.style-7 .info h6 {
-  color: #E3204A;
+  color: #a44cee;
   font-weight: 400;
   margin-bottom: 10px;
 }
@@ -9103,7 +9103,7 @@ header.style-15 .countdown-content .logos img {
   display: none;
 }
 .pricing.style-10 .pricing-table .table-body-card.recommended-card {
-  background-color: #E3204A;
+  background-color: #8169f1;
   color: #fff;
 }
 .pricing.style-10
@@ -9115,14 +9115,14 @@ header.style-15 .countdown-content .logos img {
   color: #fff;
 }
 .pricing.style-10 .pricing-table .table-body-card.recommended-card .sub-body {
-  border: 15px solid #E3204A;
+  border: 15px solid #8169f1;
 }
 .pricing.style-10
   .pricing-table
   .table-body-card.recommended-card
   .sub-body
   ul {
-  background-color: #E3204A;
+  background-color: #8169f1;
 }
 .pricing.style-10
   .pricing-table
@@ -10542,33 +10542,33 @@ header.style-15 .countdown-content .logos img {
     left top,
     right top,
     from(#501e9c),
-    color-stop(30%, #E3204A),
-    color-stop(30%, #E3204A),
-    color-stop(73%, #E3204A),
+    color-stop(30%, #8169f1),
+    color-stop(30%, #8169f1),
+    color-stop(73%, #a44cee),
     to(#ff847f)
   );
   background-image: -webkit-linear-gradient(
     left,
     #501e9c 0%,
-    #E3204A 30%,
-    #E3204A 30%,
-    #E3204A 73%,
+    #8169f1 30%,
+    #8169f1 30%,
+    #a44cee 73%,
     #ff847f 100%
   );
   background-image: -o-linear-gradient(
     left,
     #501e9c 0%,
-    #E3204A 30%,
-    #E3204A 30%,
-    #E3204A 73%,
+    #8169f1 30%,
+    #8169f1 30%,
+    #a44cee 73%,
     #ff847f 100%
   );
   background-image: linear-gradient(
     to right,
     #501e9c 0%,
-    #E3204A 30%,
-    #E3204A 30%,
-    #E3204A 73%,
+    #8169f1 30%,
+    #8169f1 30%,
+    #a44cee 73%,
     #ff847f 100%
   );
 }
@@ -11809,7 +11809,7 @@ header.style-15 .countdown-content .logos img {
 
 /* --------------- chat-banner styles --------------- */
 .chat-banner.style-7 {
-  background-color: #E3204A;
+  background-color: #8169f1;
   padding-top: 100px;
 }
 .chat-banner.style-7 .info {
@@ -12291,7 +12291,7 @@ header.style-15 .countdown-content .logos img {
     brightness(99%) contrast(92%);
 }
 .solutions.style-10 .solution-card:hover {
-  background-color: #E3204A;
+  background-color: #8169f1;
   color: #fff;
   -webkit-box-shadow: 10px 10px 30px #0004;
   box-shadow: 10px 10px 30px #0004;
@@ -18964,16 +18964,4 @@ footer.style-15 .foot p {
 .btn.sm-butn.butn-gard.border-0.custom_btn {
 	color: #fff !important;
 	margin-top: 19px;
-}
-.servicesContent::before {
-	content: "";
-	position: absolute;
-	top: 0;
-	background: url(../../assets/img/content-bg.webp) no-repeat;
-	width: 100%;
-	height: 100%;
-	z-index: 0;
-}
-.servicesContent h2 {
-	margin-bottom: 23px;
 }
