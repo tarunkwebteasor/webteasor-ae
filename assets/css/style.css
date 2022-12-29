@@ -638,9 +638,9 @@ small.text {
   position: relative;
   top: 3px;
   opacity: 0.8;
-  content: "\f078";
+  content: "\F229";
   font-weight: 900;
-  font-family: "Font Awesome 5 pro";
+  font-family: bootstrap-icons !important;
   border: 0;
   font-size: 80%;
 }
@@ -655,10 +655,14 @@ small.text {
   top: 100%;
 }
 .dropdown-menu .dropdown-item {
-  padding: 8px 20px;
-  font-size: 12px;
+	padding: 8px 20px;
+	font-size: 13px;
+	text-transform: uppercase;
 }
-
+style-1 .dropdown-menu .dropdown-item:focus, .dropdown-item:hover {
+	color: #fff;
+	background-color: #b31e16;
+}
 .form-control:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -1701,7 +1705,7 @@ small.text {
   top: 0;
   width: 150%;
   height: 100%;
-  z-index: 1;
+  z-index: -3;
   background: -webkit-gradient(
     linear,
     left top,
@@ -2605,12 +2609,12 @@ small.text {
   margin-right: 40px;
 }
 .navbar.style-1 .navbar-nav .nav-item .nav-link {
-  font-size: 12px;
-  color: #000;
-  font-weight: 700;
-  line-height: 2;
-  margin: 0 7px;
-  text-transform: capitalize;
+	font-size: 14px;
+	color: #a61e08;
+	font-weight: 700;
+	line-height: 2;
+	margin: 0 5px;
+	text-transform: uppercase;
 }
 .navbar.style-1 .navbar-nav .nav-item .nav-link.active {
   color: var(--color-main);
@@ -18964,4 +18968,14 @@ footer.style-15 .foot p {
 .btn.sm-butn.butn-gard.border-0.custom_btn {
 	color: #fff !important;
 	margin-top: 19px;
+}
+.row.dropdown_area {
+	width: 700px;
+	position: absolute;
+	left: 187px;
+	top: 0;
+	background: #ddd;
+}
+#navbarDropdown3 {
+	position: relative;
 }
