@@ -13,6 +13,29 @@
     background: #fff;
     margin-bottom: 1.5rem;
   }
+  .code_image::after {
+    content: "";
+    position: absolute;
+    background: url(../../assets/img/Licon1.svg);
+    width: 21px;
+    height: 20px;
+    top: -9px;
+    left: 20px;
+    background-repeat: no-repeat;
+  }
+  .code_image{
+    position: relative;
+  }
+  .code_image::before {
+    content: "";
+    position: absolute;
+    background: url(../../assets/img/Licon2.svg);
+    width: 20px;
+    height: 20px;
+    bottom: -6px;
+    right: 14px;
+    background-repeat: no-repeat;
+  }
   .icon-box {
     text-align: center;
     position: relative;
@@ -482,4 +505,55 @@
   vertical-align: middle;
   margin: 8px 0 8px 1em;
   line-height: 20px;
+}
+/*banner Section Css*/
+.banner_section h1 {
+	color: #2E2F43;
+	font-size: 39px; 
+	font-weight: 800;
+	line-height: 60px;
+}
+.banner_info {
+	padding: 90px 0;
+}
+.typewrite {
+	position: relative;
+	color: #e3204a;
+	text-decoration: none;
+}
+.typewrite::after {
+	content: "]";
+	padding-left: 12px;
+}
+.typewrite::before {
+	content: '[';
+	padding-right: 12px;
+}
+.media_box {
+	padding: 20px 15px;
+}
+.row.media_box_style {
+	border-bottom: 2px solid #ddd;
+}
+.media_box:first-child {
+	border-right: 2px solid #ddd;
+}
+.banner_video {
+	background: url(images/banner.jpg);
+	background-position: center center;
+	background-size: cover;
+	
+}
+#myVideo {
+	position: relative;
+}
+  
+.banner_video .content {
+	position: absolute;
+	top: 20%;
+	right: 7%;
+	background: rgba(255, 255, 255, 0.8);
+	color: #000;
+	width: 38%;
+	padding: 50px;
 }
