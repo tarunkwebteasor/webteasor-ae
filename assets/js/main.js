@@ -152,7 +152,6 @@ $( function() {
         $(".products-content .products").removeClass("list-view");
     })
 
-
     // ------------ increase products -----------
     $(".qt-plus").click(function() {
         $(this).parent().children(".qt").html(parseInt($(this).parent().children(".qt").html()) + 1);
@@ -171,7 +170,6 @@ $( function() {
     });
 
 });
-
  // ---------- hover dropdown -----------
  const $dropdown = $(".dropdown");
  const $dropdownToggle = $(".dropdown-toggle");
@@ -198,10 +196,7 @@ $( function() {
       $dropdown.off("mouseenter mouseleave");
     }
   });
-  
-
-
-
+ 
 // ------------ swiper sliders -----------
 $(document).ready(function() {
     var swiper = new Swiper('.portfolio-slider .swiper-container', {
@@ -1152,8 +1147,6 @@ $(document).ready(function() {
     });
 
 });
-
-
 /* ===============================  Preloader page  =============================== */
 $( function() {
 
@@ -1174,4 +1167,22 @@ $( function() {
     var containerEl = document.querySelector('.mix-container');
     var mixer = mixitup(containerEl);
 } );
+
+const mobileBtn = document.getElementById('hamburger-icon')
+const mobileMenu = document.getElementById('mobile-menu')
+const mobileMenuicon = document.querySelector('#hamburger-icon i')
+
+mobileBtn.addEventListener('click', () => {
+    // Open/hide mobile menu
+    mobileMenu.classList.toggle('hidden')
+
+    // Change mobile toggler icon on open/close
+    if(!mobileMenu.classList.contains('hidden')) {
+        mobileMenuicon.classList.remove('fa-bars')
+        mobileMenuicon.classList.add('fa-xmark')
+    } else {
+        mobileMenuicon.classList.remove('fa-xmark')
+        mobileMenuicon.classList.add('fa-bars')
+    }
+})
 
