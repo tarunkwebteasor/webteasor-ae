@@ -518,7 +518,7 @@
 }
 .typewrite {
 	position: relative;
-	color: #e3204a;
+	color: #698474 !important;
 	text-decoration: none;
 }
 .typewrite::after {
