@@ -37,9 +37,18 @@
 	background-repeat: no-repeat;
 }
 #serviceList .serviceRow .box {
-padding: 30px;
-
-  }
+	padding: 40px;
+	height: 400px;
+	margin-bottom: 20px;
+  box-shadow: 0px 3px 80px 0px rgba(215,223,231,0.5);
+}
+#serviceList .serviceRow .box:hover .top_ .icon img {
+	webkit-filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(135deg) brightness(107%) contrast(106%);
+	filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(135deg) brightness(107%) contrast(106%);
+}
+#serviceList .serviceRow .box:hover .title {
+	color: #fff;
+}
 #serviceList .serviceRow .box:hover {
     background: #f6d508;
     border-color: #f6d508;
@@ -66,6 +75,9 @@ padding: 30px;
     margin-bottom: 25px;
     position: relative;
     z-index: 1;
+  }
+  #serviceList .serviceRow .box:hover .info {
+    color: #fff;
   }
   #serviceList .serviceRow .box .top_ .icon {
     min-height: 61px;
@@ -121,4 +133,34 @@ padding: 30px;
     visibility: visible;
     transform: translate(32%, -32%);
   }
+  /*===========================================*/
+  #serviceList .serviceRow .box .top_ .icon img {
+    max-width: 90px;
+  #serviceList .serviceRow .box:hover .top_ .icon img {
+    -webkit-filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(135deg) brightness(107%) contrast(106%);
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(135deg) brightness(107%) contrast(106%);
+  }
+  #serviceList .serviceRow .box:hover .title {
+    color: #fff;
+  }
+  #serviceList .serviceRow .box:hover .info {
+    color: #fff;
+  }
+  .inner_page_cta{
+    padding: 80px;
+    background: -webkit-gradient( linear, left top, right top, color-stop(10%, #a61e08), color-stop(45%, #e3204a), color-stop(#e3204a), to(#a61e08) );
+    background: -webkit-linear-gradient( left, #a61e08 10%, #e3204a 45%, #e3204a, #a61e08 );
+    background: -o-linear-gradient( left, #a61e08 10%, #e3204a 45%, #e3204a, #a61e08 );
+    background: linear-gradient( to right, #a61e08 10%, #e3204a 45%, #e3204a, #a61e08 );
+    color: #fff;
+  }
+  .inner_page_cta a {
+    background: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #000;
+    padding: 13px 50px;
+    border-radius: 10px;
+  }
+  /*=======================================*/
   
