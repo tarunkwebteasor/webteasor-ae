@@ -7,14 +7,14 @@
 	.st1{fill:url(#SVGID_2_);}
 </style>
 <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="534.1423" y1="275.4779" x2="548.3795" y2="61.5702">
-	<stop  offset="0" style="stop-color:#000"/>
-	<stop  offset="1" style="stop-color:#de381e"/>
+	<stop  offset="0" style="stop-color:#698474 "/>
+	<stop  offset="1" style="stop-color:#BAC7A7"/>
 </linearGradient>
 <polygon class="st0" points="650,169 495.2,290.5 461.1,193.9 456.8,181.6 448.7,158.5 435.6,121.4 590.4,0 611.6,60.1 616,72.5 
 	646.3,158.5 "/>
 <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="0" y1="423.9576" x2="721.4203" y2="423.9576">
-	<stop  offset="0" style="stop-color:#F6CD14"/>
-	<stop  offset="1" style="stop-color:#de381e"/>
+	<stop  offset="0" style="stop-color:#698474"/>
+	<stop  offset="1" style="stop-color:#BAC7A7"/>
 </linearGradient>
 <polygon class="st1" points="712.4,346.1 656,186.1 650,169 495.2,290.5 470.5,309.8 420.4,349.1 336,415.3 323.9,424.8 
 	169.1,546.2 147.5,563.2 97.4,602.5 0,678.9 27.7,678.9 329.7,678.9 336,674 395.4,627.4 492.5,551.2 542.6,511.9 566.6,493.1 
