@@ -20,7 +20,7 @@
   --color-green: #00c057;
   --color-yellowGreen: #cef54b;
   --color-gray: #eef4f8;
-  --color-gray2: #f0eff5;
+  --color-gray2: #EEEEE7;
   --color-main-grad: linear-gradient(to right, #889E81 0%, #698474 100%);
 }
 
@@ -12279,7 +12279,7 @@ header.style-15 .countdown-content .logos img {
   font-weight: bold;
 }
 .solutions.style-10 .solution-card:hover {
-  background-color: #8169f1;
+  background-color: #698474;
   color: #fff;
   -webkit-box-shadow: 10px 10px 30px #0004;
   box-shadow: 10px 10px 30px #0004;
@@ -18981,8 +18981,6 @@ footer.style-15 .foot p {
 }
 .services_details_inner.weServe .icon img {
 	max-width: 50px;
-	webkit-filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(135deg) brightness(107%) contrast(106%);
-	filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(135deg) brightness(107%) contrast(106%);
 }
 .services_details_inner.weServe .icon {
 	text-align: center;
@@ -19009,15 +19007,33 @@ footer.style-15 .foot p {
 .services_details_inner.weServe .title {
 	font-size: 26px;
 	text-transform: uppercase;
-	color: #fff;
 	text-align: center;
 	margin: 10px 0;
 }
 .services_details_inner.weServe .info {
-	color: #fff;
 	font-size: 16px;
 	text-align: justify;
 }
  .weServe.col-lg-4.col-md-6.col_:nth-child(2n) .box.animate {
 	background: #808080;
+}
+.services_details_inner.weServe .box.animate {
+	padding: 30px 40px 55px;
+	transition: all .3s;
+	overflow: hidden;
+	position: relative;
+	border-radius: 5px;
+	background-color: #eeeee7;
+	box-shadow: 0px 3px 80px 0px rgba(215,223,231,0.5);
+	height: 300px;
+	margin-bottom: 30px;
+}
+.cta {
+	margin: -126px 0;
+}
+.services_details_inner.weServe {
+	padding: 170px 0px 30px 0;
+}
+.solutions.style-10.section-padding.bg-light {
+	padding-bottom: 178px;
 }
