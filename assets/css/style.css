@@ -364,17 +364,7 @@ body.style-6 {
   padding: 30px 30px 0;
 }
 
-/*.home-style-7 {
-  color: #000; }
-  .home-style-7 a:hover {
-    color: var(--color-blue7); }
-  .home-style-7 #preloader:after,
-  .home-style-7 #preloader:before {
-    background: -webkit-gradient(linear, right top, left top, from(#501e9c), color-stop(30%, #8169f1), color-stop(30%, #8169f1), color-stop(73%, #a44cee), to(#ff847f));
-    background: -webkit-linear-gradient(right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
-    background: -o-linear-gradient(right, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%);
-    background: linear-gradient(to left, #501e9c 0%, #8169f1 30%, #8169f1 30%, #a44cee 73%, #ff847f 100%); }
-*/
+
 .home-style-8 {
   color: #000;
 }

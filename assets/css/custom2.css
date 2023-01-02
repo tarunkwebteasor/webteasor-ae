@@ -1,0 +1,124 @@
+.Sub h2 {
+	text-transform: uppercase;
+	font-size: 26px;
+	color: #5e5e5e;
+}
+.Main h1 {
+	font-size: 40px;
+}
+.main_head {
+	font-size: 50px;
+	font-weight: 800;
+	line-height: 60px;
+}
+.main_head.with_ba {
+	position: relative;
+}
+.main_head.with_ba::before {
+	content: "";
+	position: absolute;
+	background: url(../../assets/img/Licon2.svg);
+	background-repeat: repeat;
+	width: 90px;
+	height: 90px;
+	bottom: -6px;
+	right: 8px;
+	background-repeat: no-repeat;
+}
+.main_head.with_ba::after {
+	content: "";
+	position: absolute;
+	background: url(../../assets/img/Licon1.svg);
+	background-repeat: repeat;
+	width: 90px;
+	height: 90px;
+	top: -32px;
+	left: -56px;
+	background-repeat: no-repeat;
+}
+#serviceList .serviceRow .box {
+padding: 30px;
+
+  }
+#serviceList .serviceRow .box:hover {
+    background: #f6d508;
+    border-color: #f6d508;
+  }
+  #serviceList .serviceRow .box .outerBox {
+    transition: all .8s;
+  }
+  #serviceList .serviceRow .box .hov_shape {
+    border-radius: 50%;
+    background: #ffe754;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    transform: translate(60%, -60%);
+    transition: all .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 0;
+  }
+  #serviceList .serviceRow .box .top_ {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    position: relative;
+    z-index: 1;
+  }
+  #serviceList .serviceRow .box .top_ .icon {
+    min-height: 61px;
+    max-height: 61px;
+    display: flex;
+    align-items: center;
+    width: calc(100% - 50px);
+  }
+  #serviceList .serviceRow .box .top_ .icon svg {
+    max-width: 58px;
+    max-height: 58px;
+  }
+  #serviceList .serviceRow .box .top_ .more {
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s;
+      transition-delay: 0s;
+    transition-delay: .2s;
+    transform: translateX(-13px);
+  }
+  #serviceList .serviceRow .box .title {
+    font-size: 22px;
+    color: #000;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 15px;
+    transition: all .3s;
+    position: relative;
+    z-index: 1;
+  }
+  #serviceList .serviceRow .box .info {
+    font-size: 16px;
+    line-height: 26px;
+    color: #414141;
+    transition: all .3s;
+    position: relative;
+    z-index: 1;
+  }
+  #serviceList .serviceRow .box:hover .top_ .more {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0px);
+  }
+  #serviceList .serviceRow .box .top_ .more svg ellipse {
+    fill-opacity: 0;
+    stroke-width: 2px;
+    stroke: #000;
+  }
+  #serviceList .serviceRow .box:hover .hov_shape {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(32%, -32%);
+  }
+  
