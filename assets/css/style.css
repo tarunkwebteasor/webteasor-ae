@@ -1,27 +1,27 @@
 
 /* --------------- variable --------------- */
 :root {
-  --color-main: #e3204a;
-  --color-primary: #a61e08;
-  --color-secondary: #cc2131;
+  --color-main: #698474;
+  --color-primary: #889E81;
+  --color-secondary: #BAC7A7;
   --color-blue2: #ef1552;
   --color-blue4: #5842bc;
   --color-blue5: #157efb;
   --color-blue6: #6640f4;
   --color-blue7: #8169f1;
   --color-lightBlue: #15f1ff;
-  --color-darkBlue: #cc2131;
-  --color-darkBlue2: #a61e08;
+  --color-darkBlue: #BAC7A7;
+  --color-darkBlue2: #889E81;
   --color-orange1: #ff7a41;
   --color-orange2: #f6c463;
   --color-orange3: #f9a41f;
-  --color-red1: #cc2131;
+  --color-red1: #BAC7A7;
   --color-red2: #ef1552;
   --color-green: #00c057;
   --color-yellowGreen: #cef54b;
   --color-gray: #eef4f8;
   --color-gray2: #f0eff5;
-  --color-main-grad: linear-gradient(to right, #a61e08 0%, #e3204a 100%);
+  --color-main-grad: linear-gradient(to right, #889E81 0%, #698474 100%);
 }
 
 .color-main {
@@ -1700,31 +1700,31 @@ style-1 .dropdown-menu .dropdown-item:focus, .dropdown-item:hover {
     linear,
     left top,
     right top,
-    color-stop(10%, #a61e08),
-    color-stop(45%, #e3204a),
-    color-stop(#e3204a),
-    to(#a61e08)
+    color-stop(10%, #889E81),
+    color-stop(45%, #698474),
+    color-stop(#698474),
+    to(#889E81)
   );
   background: -webkit-linear-gradient(
     left,
-    #a61e08 10%,
-    #e3204a 45%,
-    #e3204a,
-    #a61e08
+    #889E81 10%,
+    #698474 45%,
+    #698474,
+    #889E81
   );
   background: -o-linear-gradient(
     left,
-    #a61e08 10%,
-    #e3204a 45%,
-    #e3204a,
-    #a61e08
+    #889E81 10%,
+    #698474 45%,
+    #698474,
+    #889E81
   );
   background: linear-gradient(
     to right,
-    #a61e08 10%,
-    #e3204a 45%,
-    #e3204a,
-    #a61e08
+    #889E81 10%,
+    #698474 45%,
+    #698474,
+    #889E81
   );
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -2600,7 +2600,7 @@ style-1 .dropdown-menu .dropdown-item:focus, .dropdown-item:hover {
 }
 .navbar.style-1 .navbar-nav .nav-item .nav-link {
 	font-size: 14px;
-	color: #a61e08;
+	color: #889E81;
 	font-weight: 700;
 	line-height: 2;
 	margin: 0 5px;
@@ -3610,7 +3610,7 @@ header.style-4 .content .info h1 span {
 	background-image: -webkit-gradient( linear, left top, right top, from(#501E9C), color-stop(30%, #8169F1), color-stop(30%, #8169F1), color-stop(73%, #A44CEE), to(#FF847F) ); 
 	background-image: -webkit-linear-gradient( left, #501E9C 0%, #8169F1 30%, #8169F1 30%, #A44CEE 73%, #FF847F 100% );
 	 background-image: -o-linear-gradient( left, #501E9C 0%, #8169F1 30%, #8169F1 30%, #A44CEE 73%, #FF847F 100% ); 
-	background-image: linear-gradient( to right, #A61E08 10%, #E3204A 45%, #E3204A, #A61E08 );
+	background-image: linear-gradient( to right, #889E81 10%, #698474 45%, #698474, #889E81 );
 }
 header.style-4 .content .info .play-btn {
   display: -webkit-box;
@@ -4521,8 +4521,8 @@ header.style-14 .info .vid_link .icon {
   color: #fff;
   -webkit-margin-end: 10px;
   margin-inline-end: 10px;
-  -webkit-box-shadow: 3px 8px 15px #cc213155;
-  box-shadow: 3px 8px 15px #cc213155;
+  -webkit-box-shadow: 3px 8px 15px BAC7A755;
+  box-shadow: 3px 8px 15px BAC7A755;
 }
 header.style-14 .info .vid_link p {
   font-weight: bold;
@@ -11344,8 +11344,8 @@ header.style-15 .countdown-content .logos img {
 .features.style-14 .nav-pills .nav-link.active {
   color: #fff;
   background-color: var(--color-red1);
-  -webkit-box-shadow: 0 10px 30px #cc213155;
-  box-shadow: 0 10px 30px #cc213155;
+  -webkit-box-shadow: 0 10px 30px BAC7A755;
+  box-shadow: 0 10px 30px BAC7A755;
 }
 .features.style-14 .tab-pay-content .info .icon {
   margin-bottom: 20px;
@@ -13616,7 +13616,7 @@ footer.style-14 .payment-cards .row .col-lg-3:nth-of-type(4) .pay-card {
 footer.style-14 .payment-cards .pay-card {
   padding: 30px;
   color: #fff;
-  background-color: #cc2131;
+  background-color: BAC7A7;
   border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16746,7 +16746,7 @@ footer.style-15 .foot p {
 	padding: 50px;
 }
 .servicesContent {
-	background: #e3204a;
+	background: #698474;
 	position: relative;
 	padding: 50px 0;
 	color: #fff;
@@ -18848,7 +18848,7 @@ footer.style-15 .foot p {
 .box-about:hover {
   -webkit-box-shadow: 0 14px 30px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 14px 30px 0 rgba(0, 0, 0, 0.1);
-  background: #e3204a;
+  background: #698474;
 }
 .featured-services {
 	margin-bottom: 30px;
@@ -18965,10 +18965,10 @@ footer.style-15 .foot p {
 }
 .inner_page_cta{
   padding: 80px;
-  background: -webkit-gradient( linear, left top, right top, color-stop(10%, #a61e08), color-stop(45%, #e3204a), color-stop(#e3204a), to(#a61e08) );
-  background: -webkit-linear-gradient( left, #a61e08 10%, #e3204a 45%, #e3204a, #a61e08 );
-  background: -o-linear-gradient( left, #a61e08 10%, #e3204a 45%, #e3204a, #a61e08 );
-  background: linear-gradient( to right, #a61e08 10%, #e3204a 45%, #e3204a, #a61e08 );
+  background: -webkit-gradient( linear, left top, right top, color-stop(10%, #889E81), color-stop(45%, #698474), color-stop(#698474), to(#889E81) );
+  background: -webkit-linear-gradient( left, #889E81 10%, #698474 45%, #698474, #889E81 );
+  background: -o-linear-gradient( left, #889E81 10%, #698474 45%, #698474, #889E81 );
+  background: linear-gradient( to right, #889E81 10%, #698474 45%, #698474, #889E81 );
   color: #fff;
 }
 .inner_page_cta a {
