@@ -37,6 +37,7 @@
 	background-repeat: no-repeat;
 }
 #serviceList .serviceRow .box {
+<<<<<<< HEAD
 	padding: 40px;
 	height: 400px;
 	margin-bottom: 20px;
@@ -48,6 +49,19 @@
 }
 #serviceList .serviceRow .box:hover .title {
 	color: #fff;
+=======
+	padding: 30px;
+	position: relative;
+	transition: all .8s;
+	overflow: hidden;
+	background: #fff;
+	background-color: rgb(255, 255, 255);
+	position: relative;
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: 0px 3px 80px 0px rgba(215,223,231,0.5);
+  margin-bottom: 1.5rem;
+>>>>>>> f4d9eed4011102f93d246968c578ea6a3f6e60da
 }
 #serviceList .serviceRow .box:hover {
     background: #f6d508;
@@ -67,6 +81,10 @@
     opacity: 0;
     visibility: hidden;
     z-index: 0;
+  }
+  #serviceList .serviceRow .box .hov_shape {
+    width: 400px;
+    height: 400px;
   }
   #serviceList .serviceRow .box .top_ {
     display: flex;
