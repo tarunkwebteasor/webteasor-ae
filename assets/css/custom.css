@@ -337,9 +337,13 @@
   }
 
   .header .header-row .header-right .main-menu li.menu-item:not(:last-child) {
-    margin: 0 20px 0 0;
+    margin: 0 0px 0 0;
   }
-
+  .dropdown.dropdown-submenu a {
+    opacity: 1;
+    font-size: 24px;
+    font-weight: 600;
+  }
  
   .header .header-row .header-right .main-menu li.menu-item a.active {
     color: #e9900a;
@@ -414,6 +418,57 @@
   .header .header-row .header-right .main-menu .sub-menu-wrapper ul li:hover {
     background-color: #ededed;
   }
+  .dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  .dropdown>.dropdown-submenu {
+    display: none;
+  }
+  .dropdown:hover>.dropdown-submenu {
+    display: block;
+  }
+  .dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu > .dropdown-menu {
+	top: 0;
+	left: 100%;
+	margin-top: 0px;
+	margin-left: -1px;
+	-webkit-border-radius: 0 6px 6px 6px;
+	-moz-border-radius: 0 6px 6px 6px;
+	border-radius: 0 6px 6px 6px;
+	display: none;
+}
+  
+.dropdown-submenu > a:after {
+  border-color: transparent transparent transparent #333;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  content: " ";
+  display: block;
+  float: right;  
+  height: 0;     
+  margin-right: 0px;
+  margin-top: 5px;
+  width: 0;
+}
+.mega-sub-menu:hover .dropdown-menu {
+	min-width: 100%;
+	padding: 2px 0;
+	border-radius: 15px;
+	border: 0;
+	-webkit-box-shadow: 0 0 20px #0001;
+	box-shadow: 0 0 20px #0001;
+}
+.dropdown-submenu:hover>a:after {
+    border-left-color:#9b9b9b;
+ }
+
+.dropdown-menu > li > a:hover, .dropdown-menu > .active > a:hover {
+  text-decoration: underline;
+}  
+
 
   /* Mega menu styles */
   .header .header-row .header-right .main-menu .mega-menu .mega-menu-wrapper {
@@ -435,7 +490,7 @@
     li.mega-menu:hover
     .mega-menu-wrapper {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
 
   .header
@@ -450,7 +505,11 @@
     margin-bottom: 15px;
     padding-left: 8px;
   }
-
+  .mega-menu-col h5 {
+    font-size: 18px;
+    color: #698474;
+    font-weight: 600;
+  }
   .header
     .header-row
     .header-right
@@ -461,7 +520,7 @@
     ul {
     list-style: none;
     margin-left: 0px;
-    margin-right: 20px;
+    margin-right: 0px;
   }
 
   .header
