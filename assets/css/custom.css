@@ -432,7 +432,7 @@
 }
 .dropdown-submenu > .dropdown-menu {
   top: 37px;
-  left: 30%;
+  left: 0%;
   margin-top: 0px;
   margin-left: -1px;
   -webkit-border-radius: 0 6px 6px 6px;
