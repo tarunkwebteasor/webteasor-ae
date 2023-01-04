@@ -23,60 +23,187 @@
     </head>
 <body>
     <!-- ====== start navbar ====== -->
-    <nav class="navbar navbar-expand-lg navbar-light style-1">
-        <div class="container">
-            <a class="navbar-brand" href="#" data-scroll-nav="0">
-                <img src="assets/img/logo_cd.png" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown"><a class="nav-link" href="About.html">About Us</a></li>
-                    <li class="nav-item dropdown"><a class="nav-link" href="services.html" >services</a></li>
-                    <li class="nav-item">
-                        <a class="nav-link"  data-scroll-nav="3">
-                            why us
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"  data-scroll-nav="4">
-                            portfolio
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"  data-scroll-nav="5">
-                            testimonials
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"  data-scroll-nav="6">
-                            blog
-                        </a>
-                    </li>
-                </ul>
-                <div class="nav-side">
-                    <div class="hotline pe-4">
-                        <div class="icon me-3">
-                            <i class="fa fa-phone" aria-hidden="true"></i>
+    <header class="header">	
+        <nav class="navbar navbar-expand-lg header-row navbar-light style-1">
+            <div class="container">
+                <a class="navbar-brand" href="#" data-scroll-nav="0">
+                    <img src="assets/img/logo_cd.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse header-right" id="navbarSupportedContent">
+                    <ul class="navbar-nav main-menu me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown"><a href="About.html" class="nav-link" href="services.html">About Us</a></li>
+                        <li class="nav-item menu-item mega-menu">
+                            <a href="#" class="nav-link">Services +</a>
+                            <div class="mega-menu-wrapper slideInUp">
+                                <div class="mega-menu-col">
+                                    <h5>Web Development</h5>
+                                    <ul class="mega-sub-menu">
+                                        <li class="dropdown">
+                                            <ul class="">
+                                                <li class="dropdown dropdown-submenu"><a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#">CMS Solutions</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="kopie"><a href="#">Wordpress</a></li>
+                                                        <li><a href="#">Joomla</a></li>
+                                                        <li><a href="#">Drupal</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <ul class="">
+                                                <li class="dropdown dropdown-submenu">
+                                                    <a href="#" class="dropdown-item dropdown-toggle" data-toggle="dropdown" >E-Commerce Solutions</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="kopie"><a href="#">Shopify</a></li>
+                                                        <li><a href="#">Magento</a></li>
+                                                        <li><a href="#">Woocommerce</a></li>
+                                                        <li><a href="#">Big Commerce</a></li>
+                                                        <li><a href="#">Opencart</a></li>
+                                                    </ul>
+                                                </li>    
+                                            </ul>    
+                                        </li>
+                                        <li class="dropdown">
+                                            <ul class="">
+                                                <li class="dropdown dropdown-submenu">
+                                                    <a href="#" class="dropdown-item dropdown-toggle" data-toggle="dropdown">PHP Development</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="kopie"><a href="#">Laravel</a></li>
+                                                        <li><a href="#">CodeIgniter</a></li>
+                                                        <li><a href="#">CakePHP</a></li>
+                                                        <li><a href="#">Yii</a></li>
+                                                        <li><a href="#">Symfony</a></li>
+                                                    </ul>
+                                                </li>    
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <ul class="">
+                                                <li class="dropdown dropdown-submenu">
+                                                    <a href="#" class="dropdown-item dropdown-toggle" data-toggle="dropdown">Node Js Development</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="kopie"><a href="#">Express Js</a></li>
+                                                        <li><a href="#">React</a></li>
+                                                        <li><a href="#">Next</a></li>
+                                                        <li><a href="#">Vue.JS</a></li>
+                                                        <li><a href="#">TypeScript/ORM</a></li>
+                                                    </ul>
+                                                </li>    
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mega-menu-col">
+                                    <h5>App Development</h5>
+                                    <ul class="mega-sub-menu">
+                                        <li><a href="#">Android App Development</a></li>
+                                        <li><a href="#">iPhone App Development</a></li>
+                                        <li><a href="#">React Native App Development</a></li>
+                                        <li><a href="#">Flutter App Development</a></li>
+                                        <li><a href="#">iPad App Development</a></li>
+                                        <li><a href="#">Apple Watch App Development</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-menu-col">
+                                    <h5>Branding</h5>
+                                    <ul class="mega-sub-menu">
+                                        <li><a href="#">Logo Design</a></li>
+                                        <li><a href="#">Graphic Design</a></li>
+                                        <li><a href="#">Corporate Presentation</a></li>
+                                        <li><a href="#">Print Design</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mega-menu-col">
+                                    <h5>Web Design</h5>
+                                    <ul class="mega-sub-menu">
+                                        <li class="dropdown">
+                                            <ul class="">
+                                                <li class="dropdown dropdown-submenu"><a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#">UX/UI Design</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="kopie"><a href="#">Interaction Design</a></li>
+                                                        <li><a href="#">Information Architecture</a></li>
+                                                        <li><a href="#">Mobile UX</a></li>
+                                                        <li><a href="#">UX Testing</a></li>
+                                                        <li><a href="#">Wireframes</a></li>
+                                                        <li><a href="#">Figma</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mega-menu-col">
+                                    <h5>Digital Marketing</h5>
+                                    <ul class="mega-sub-menu">
+                                        <li class="dropdown">
+                                            <ul class="">
+                                                <li class="dropdown dropdown-submenu"><a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#">SEO</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="kopie"><a href="#">SEO For E-Commerce</a></li>
+                                                        <li><a href="#">SEO For Travel Business</a></li>
+                                                        <li><a href="#">SEO For Doctors</a></li>
+                                                        <li><a href="#">SEO For Jewelers</a></li>
+                                                        <li><a href="#">SEO For Salons</a></li>
+                                                        <li><a href="#">SEO For Hotels</a></li>
+                                                        <li><a href="#">SEO For Real Estate</a></li>
+                                                        <li><a href="#">SEO For Dental Clinics</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Email Marketing</a></li>
+                                        <li><a href="#">SMS Marketing</a></li>
+                                        <li><a href="#">Content Writing & Marketing</a></li>
+                                        <li><a href="#">Social Media</a></li>
+                                        <li><a href="#">Google Ads (PPC)</a></li>
+                                        <li><a href="#">Facebook & Instgram Ads</a></li>
+                                        <li><a href="#">Local SEO</a></li>
+                                        <li><a href="#">ORM</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"  data-scroll-nav="4">
+                                portfolio
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"  data-scroll-nav="5">
+                                testimonials
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"  data-scroll-nav="6">
+                                blog
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="nav-side">
+                        <div class="hotline pe-4">
+                            <div class="icon me-3">
+                                <i class="bi bi-telephone-fill"></i>
+                            </div>
+                            <div class="cont">
+                                <small class="text-muted m-0">hotline 24/7</small>
+                                <h6>(+23) 5535 68 68</h6>
+                            </div>
                         </div>
-                        <div class="cont">
-                            <small class="text-muted m-0">hotline 24/7</small>
-                            <h6>(+23) 5535 68 68</h6>
+                        <div class="qoute-nav ps-4">
+                            <a href="#0" class="btn sm-butn butn-gard border-0 text-white" data-scroll-nav="7">
+                                <span>Free Quote</span>
+                            </a>
                         </div>
-                    </div>
-                    <div class="qoute-nav ps-4">
-                        <a href="#0" class="btn sm-butn butn-gard border-0 text-white" data-scroll-nav="7">
-                            <span>Free Quote</span>
-                        </a>
                     </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>	
     <!-- ====== end navbar ====== -->
 
     <main class="about-page style-2">
