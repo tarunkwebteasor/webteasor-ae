@@ -98,7 +98,7 @@
   .box-about:hover {
     -webkit-box-shadow: 0 14px 30px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 14px 30px 0 rgba(0, 0, 0, 0.1);
-    background: #e3204a;
+    background: #eb4747;
   }
   .box-about:hover .small-title-1 {
     color: #fff;
