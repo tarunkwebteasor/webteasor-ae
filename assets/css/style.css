@@ -1,27 +1,27 @@
 
 /* --------------- variable --------------- */
 :root {
-  --color-main: #698474;
-  --color-primary: #889E81;
-  --color-secondary: #BAC7A7;
+  --color-main: #f20811;
+  --color-primary: #eb4747;
+  --color-secondary: #FFDEDE;
   --color-blue2: #ef1552;
   --color-blue4: #5842bc;
   --color-blue5: #157efb;
   --color-blue6: #6640f4;
   --color-blue7: #8169f1;
   --color-lightBlue: #15f1ff;
-  --color-darkBlue: #BAC7A7;
-  --color-darkBlue2: #889E81;
+  --color-darkBlue: #FFDEDE;
+  --color-darkBlue2: #eb4747;
   --color-orange1: #ff7a41;
   --color-orange2: #f6c463;
   --color-orange3: #f9a41f;
-  --color-red1: #BAC7A7;
+  --color-red1: #FFDEDE;
   --color-red2: #ef1552;
   --color-green: #00c057;
   --color-yellowGreen: #cef54b;
   --color-gray: #eef4f8;
   --color-gray2: #EEEEE7;
-  --color-main-grad: linear-gradient(to right, #889E81 0%, #698474 100%);
+  --color-main-grad: linear-gradient(to right, #eb4747 0%, #f20811 100%);
 }
 
 .color-main {
@@ -106,11 +106,11 @@
 }
 
 .color-blue4 {
-  color: linear-gradient( to right, #889E81 10%, #698474 45%, #698474, #889E81 ) !important;
+  color: linear-gradient( to right, #eb4747 10%, #f20811 45%, #f20811, #eb4747 ) !important;
 }
 
 .bg-blue4 {
-  background: linear-gradient( to right, #889E81 10%, #698474 45%, #698474, #889E81 ) !important;
+  background: linear-gradient( to right, #eb4747 10%, #f20811 45%, #f20811, #eb4747 ) !important;
 }
 
 .border-blue4 {
@@ -1717,31 +1717,31 @@ style-1 .dropdown-menu .dropdown-item:focus, .dropdown-item:hover {
     linear,
     left top,
     right top,
-    color-stop(10%, #889E81),
-    color-stop(45%, #698474),
-    color-stop(#698474),
-    to(#889E81)
+    color-stop(10%, #eb4747),
+    color-stop(45%, #f20811),
+    color-stop(#f20811),
+    to(#eb4747)
   );
   background: -webkit-linear-gradient(
     left,
-    #889E81 10%,
-    #698474 45%,
-    #698474,
-    #889E81
+    #eb4747 10%,
+    #f20811 45%,
+    #f20811,
+    #eb4747
   );
   background: -o-linear-gradient(
     left,
-    #889E81 10%,
-    #698474 45%,
-    #698474,
-    #889E81
+    #eb4747 10%,
+    #f20811 45%,
+    #f20811,
+    #eb4747
   );
   background: linear-gradient(
     to right,
-    #889E81 10%,
-    #698474 45%,
-    #698474,
-    #889E81
+    #eb4747 10%,
+    #f20811 45%,
+    #f20811,
+    #eb4747
   );
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -1763,7 +1763,7 @@ style-1 .dropdown-menu .dropdown-item:focus, .dropdown-item:hover {
 }
 .butn.butn-blue6,
 .btn.butn-blue6 {
-  background: linear-gradient( to right, #889E81 10%, #698474 45%, #698474, #889E81 );
+  background: linear-gradient( to right, #eb4747 10%, #f20811 45%, #f20811, #eb4747 );
 }
 .butn.butn-blue6 span,
 .butn.butn-blue6 small,
@@ -2025,7 +2025,7 @@ style-1 .dropdown-menu .dropdown-item:focus, .dropdown-item:hover {
     #a44cee 73%,
     #ff847f 100%
   );
-  background-image: linear-gradient( to right, #889E81 10%, #698474 45%, #698474, #889E81 )
+  background-image: linear-gradient( to right, #eb4747 10%, #f20811 45%, #f20811, #eb4747 )
 }
 
 .section-head.style-4 h5 {
@@ -2610,8 +2610,8 @@ style-1 .dropdown-menu .dropdown-item:focus, .dropdown-item:hover {
 }
 .navbar.style-1 .navbar-nav .nav-item .nav-link {
 	font-size: 14px;
-	color: #889E81;
-	font-weight: 700;
+	color: #606060;
+	font-weight: 500;
 	line-height: 2;
 	margin: 0 5px;
 	text-transform: uppercase;
@@ -3620,7 +3620,7 @@ header.style-4 .content .info h1 span {
 	background-image: -webkit-gradient( linear, left top, right top, from(#501E9C), color-stop(30%, #8169F1), color-stop(30%, #8169F1), color-stop(73%, #A44CEE), to(#FF847F) ); 
 	background-image: -webkit-linear-gradient( left, #501E9C 0%, #8169F1 30%, #8169F1 30%, #A44CEE 73%, #FF847F 100% );
 	 background-image: -o-linear-gradient( left, #501E9C 0%, #8169F1 30%, #8169F1 30%, #A44CEE 73%, #FF847F 100% ); 
-	background-image: linear-gradient( to right, #889E81 10%, #698474 45%, #698474, #889E81 );
+	background-image: linear-gradient( to right, #eb4747 10%, #f20811 45%, #f20811, #eb4747 );
 }
 header.style-4 .content .info .play-btn {
   display: -webkit-box;
@@ -5608,18 +5608,13 @@ header.style-15 .countdown-content .logos img {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-bottom: 35px;
 }
 .services.style-1 .service-box h5 a {
-  color: #000;
+  color: var(--color-main);
   font-weight: bold;
 }
-.services.style-1 .service-box h5 .num {
-  color: var(--color-main);
-  font-size: 12px;
-}
 .services.style-1 .service-box .icon {
-  margin-bottom: 35px;
+  margin-bottom: 10px;
 }
 .services.style-1 .service-box .icon img {
   width: 60px;
@@ -12289,7 +12284,7 @@ header.style-15 .countdown-content .logos img {
   font-weight: bold;
 }
 .solutions.style-10 .solution-card:hover {
-  background-color: #698474;
+  background-color: #f20811;
   color: #fff;
   -webkit-box-shadow: 10px 10px 30px #0004;
   box-shadow: 10px 10px 30px #0004;
@@ -16756,7 +16751,7 @@ footer.style-15 .foot p {
 	padding: 50px;
 }
 .servicesContent {
-	background: #698474;
+	background: #f20811;
 	position: relative;
 	padding: 50px 0;
 	color: #fff;
@@ -18859,7 +18854,7 @@ footer.style-15 .foot p {
 .box-about:hover {
   -webkit-box-shadow: 0 14px 30px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 14px 30px 0 rgba(0, 0, 0, 0.1);
-  background: #698474;
+  background: #f20811;
 }
 .featured-services {
 	margin-bottom: 30px;
@@ -18976,10 +18971,10 @@ footer.style-15 .foot p {
 }
 .inner_page_cta{
   padding: 80px;
-  background: -webkit-gradient( linear, left top, right top, color-stop(10%, #889E81), color-stop(45%, #698474), color-stop(#698474), to(#889E81) );
-  background: -webkit-linear-gradient( left, #889E81 10%, #698474 45%, #698474, #889E81 );
-  background: -o-linear-gradient( left, #889E81 10%, #698474 45%, #698474, #889E81 );
-  background: linear-gradient( to right, #889E81 10%, #698474 45%, #698474, #889E81 );
+  background: -webkit-gradient( linear, left top, right top, color-stop(10%, #eb4747), color-stop(45%, #f20811), color-stop(#f20811), to(#eb4747) );
+  background: -webkit-linear-gradient( left, #eb4747 10%, #f20811 45%, #f20811, #eb4747 );
+  background: -o-linear-gradient( left, #eb4747 10%, #f20811 45%, #f20811, #eb4747 );
+  background: linear-gradient( to right, #eb4747 10%, #f20811 45%, #f20811, #eb4747 );
   color: #fff;
 }
 .inner_page_cta a {
@@ -19064,7 +19059,7 @@ footer.style-15 .foot p {
 }
 .service-block h3 {
 	font-size: 23px;
-	color: #698474;
+	color: #f20811;
 	font-family: Roboto,sans-serif;
 	font-weight: 400;
 	line-height: 25px;
@@ -19090,7 +19085,7 @@ footer.style-15 .foot p {
 	background-size: 100% auto;
 }
 .services-section  .pink-box {
-	background-color: #698474;
+	background-color: #f20811;
 	padding: 50px 50px;
 	border-radius: 100px;
 	text-align: center;
