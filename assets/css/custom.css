@@ -578,7 +578,7 @@
 }
 .typewrite {
 	position: relative;
-	color: #f20811 !important;
+	color: #c80815 !important;
 	text-decoration: none;
 }
 .typewrite::after {
@@ -673,4 +673,7 @@ button:focus:not(:focus-visible) {
 
 
 
+}
+.about.style-2 {
+	padding-top: 50px;
 }

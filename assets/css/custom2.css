@@ -11,31 +11,7 @@
   font-weight: 800;
   line-height: 60px;
 }
-.main_head.with_ba {
-  position: relative;
-}
-.main_head.with_ba::before {
-  content: "";
-  position: absolute;
-  background: url(../../assets/img/Licon2.svg);
-  background-repeat: repeat;
-  width: 90px;
-  height: 90px;
-  bottom: -6px;
-  right: 8px;
-  background-repeat: no-repeat;
-}
-.main_head.with_ba::after {
-  content: "";
-  position: absolute;
-  background: url(../../assets/img/Licon1.svg);
-  background-repeat: repeat;
-  width: 90px;
-  height: 90px;
-  top: -32px;
-  left: -56px;
-  background-repeat: no-repeat;
-}
+
 #serviceList .serviceRow .box {
 	padding: 30px;
 	position: relative;
@@ -43,7 +19,7 @@
 	overflow: hidden;
 	position: relative;
 	border-radius: 5px;
-	background-color: #EEEEE7;
+	background-color: #eaeaea;
 	box-shadow: 0px 3px 80px 0px rgba(215,223,231,0.5);
 	margin-bottom: 1.5rem;
 }
