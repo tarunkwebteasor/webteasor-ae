@@ -26,7 +26,7 @@
 <header class="header">	
     <nav class="navbar navbar-expand-lg header-row navbar-light style-1">
         <div class="container">
-            <a class="navbar-brand" href="/" data-scroll-nav="0">
+            <a class="navbar-brand" href="index.php" data-scroll-nav="0">
                 <img src="assets/img/logo_cd.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
