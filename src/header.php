@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="assets/css/style.css" />
         <link rel="stylesheet" href="assets/css/custom.css" />
         <link rel="stylesheet" href="assets/css/custom2.css" />
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
     </head>
      
 <body>
@@ -26,7 +27,7 @@
 <header class="header">	
     <nav class="navbar navbar-expand-lg header-row navbar-light style-1">
         <div class="container">
-            <a class="navbar-brand" href="index.php" data-scroll-nav="0">
+            <a class="navbar-brand" href="index.php">
                 <img src="assets/img/logo_cd.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -126,6 +127,7 @@
                                             <li class="dropdown dropdown-submenu"><a class="dropdown-item dropdown-toggle" data-toggle="dropdown" href="#">UX/UI Design</a>
                                                 <ul class="dropdown-menu slideInDown">
                                                     <li class="kopie"><a href="#">Interaction Design</a></li>
+                                                    <li><a href="website-designing.php">Website Designing</a></li>
                                                     <li><a href="#">Information Architecture</a></li>
                                                     <li><a href="#">Mobile UX</a></li>
                                                     <li><a href="#">UX Testing</a></li>
